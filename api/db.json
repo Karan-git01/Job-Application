@@ -216,7 +216,7 @@
       "location": "Bangalore, India",
       "type": "Full-time",
       "workMode": "Remote",
-      "experience": "Entry Level",
+      "experience": "Senior Level",
       "salaryMin": 2000000,
       "salaryMax": 3500000,
       "category": "Technology",
@@ -237,7 +237,7 @@
       ],
       "skills": [
         "Python",
-        "Ruby",
+        "R",
         "TensorFlow",
         "PyTorch",
         "SQL",
@@ -308,80 +308,29 @@
   ],
   "applications": [
     {
-      "id": "1",
-      "jobId": 1,
-      "jobTitle": "Senior React Developer",
-      "company": "TechCorp Solutions",
-      "userId": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "phone": "+91 98765 43210",
-      "resume": "https://example.com/resume.pdf",
-      "coverLetter": "I am very interested in this position and believe my skills match perfectly...",
-      "appliedDate": "2026-04-16T09:00:00Z",
-      "status": "pending"
-    },
-    {
-      "id": "7604",
-      "name": "Abhisek Kumar",
-      "email": "abhisekkumartechnoforte@gmail.com",
-      "phone": "9898809809",
-      "resume": "https://priorityfulfillment.com/industries/",
-      "coverLetter": "test",
-      "jobId": "1",
-      "jobTitle": "Senior React Developer",
-      "company": "TechCorp Solutions",
-      "appliedDate": "2026-04-27T13:26:42.686Z",
-      "status": "pending"
-    },
-    {
-      "id": "d499",
-      "name": "Abhisek Kumar",
-      "email": "ak@gmail.com",
-      "phone": "9898809809",
-      "resume": "https://priorityfulfillment.com/industries/",
-      "coverLetter": "test 2",
-      "jobId": "3",
-      "jobTitle": "UI/UX Designer",
-      "company": "DesignWorks",
-      "appliedDate": "2026-04-27T13:28:10.217Z",
-      "status": "pending"
-    },
-    {
       "jobId": "1",
       "title": "Senior React Developer",
+      "company": "TechCorp Solutions",
+      "type": "Full-time",
+      "location": "Bangalore, India",
+      "experience": "Senior Level",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Redux",
+        "HTML",
+        "CSS",
+        "Webpack",
+        "REST API"
+      ],
       "salaryMin": 1500000,
       "salaryMax": 2500000,
       "userId": "Usv-gat8pYM",
       "name": "Karan Chowdhury",
       "email": "karanchowdhury62@gmail.com",
-      "appliedDate": "2026-05-12T08:18:16.626Z",
+      "appliedDate": "2026-05-12T09:55:00.936Z",
       "status": "pending",
-      "id": "gfqp6O6KczM"
-    },
-    {
-      "jobId": "4",
-      "title": "DevOps Engineer",
-      "salaryMin": 1800000,
-      "salaryMax": 2800000,
-      "userId": "Usv-gat8pYM",
-      "name": "Karan Chowdhury",
-      "email": "karanchowdhury62@gmail.com",
-      "appliedDate": "2026-05-12T08:18:49.874Z",
-      "status": "pending",
-      "id": "zYv40SWYCx8"
-    },
-    {
-      "jobId": "2",
-      "title": "Full Stack Developer",
-      "salaryMin": 1000000,
-      "salaryMax": 1800000,
-      "userId": "Usv-gat8pYM",
-      "name": "Karan Chowdhury",
-      "email": "karanchowdhury62@gmail.com",
-      "appliedDate": "2026-05-12T08:33:58.770Z",
-      "status": "pending",
-      "id": "6FqFlEgioog"
+      "id": "yzI7x7K_JME"
     }
   ],
   "categories": [

@@ -27,12 +27,12 @@ const SignupPage = () => {
     e.preventDefault();
 
     if (formData.password !== formData.confirmPassword) {
-      toast.error("Password do not match");
+      toast.error("Passwords do not match");
       return;
     }
 
     if (formData.password.length < 6) {
-      toast.error("Password must have at least 6 characters");
+      toast.error("Password must contain at least 6 characters");
       return;
     }
 
@@ -49,116 +49,171 @@ const SignupPage = () => {
       const user = await signup(userData);
 
       if (user) {
-        toast.success("User Created");
-        navigate("/login"); // ✅ fixed
+        toast.success("Account Created Successfully");
+
+        setTimeout(() => {
+          navigate("/login");
+        }, 1000);
       }
     } catch (err) {
       console.log(err);
+      toast.error("Something went wrong");
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-md">
-        <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
-          Create Your Account
-        </h2>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 py-10">
+      <div className="w-full max-w-xl bg-white rounded-3xl shadow-xl p-8 sm:p-10">
+        
+        {/* Heading */}
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold text-gray-800">
+            Create Account
+          </h2>
 
+          <p className="text-gray-500 mt-2">
+            Join the Job Portal platform
+          </p>
+        </div>
+
+        {/* Form */}
         <form
-          className="grid grid-cols-1 sm:grid-cols-2 gap-4"
           onSubmit={handleSubmit}
+          className="space-y-5"
         >
           {/* Role */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Role</label>
-            <input
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Role
+            </label>
+
+            <select
               name="role"
+              value={formData.role}
               onChange={handleChange}
-              placeholder="Jobseeker / Company"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
-            />
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="">Select Role</option>
+              <option value="jobseeker">
+                Job Seeker
+              </option>
+              <option value="company">
+                Company
+              </option>
+            </select>
           </div>
 
           {/* Name */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Full Name</label>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Full Name
+            </label>
+
             <input
+              type="text"
               name="name"
+              value={formData.name}
               onChange={handleChange}
-              placeholder="Enter your name"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="Enter your full name"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           {/* Email */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Email</label>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Email
+            </label>
+
             <input
-              name="email"
               type="email"
+              name="email"
+              value={formData.email}
               onChange={handleChange}
               placeholder="Enter your email"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-          </div>
-
-          {/* Password */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Password</label>
-            <input
-              name="password"
-              type="password"
-              onChange={handleChange}
-              placeholder="Password"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
-            />
-          </div>
-
-          {/* Confirm Password */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Confirm Password</label>
-            <input
-              name="confirmPassword"
-              type="password"
-              onChange={handleChange}
-              placeholder="Confirm Password"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           {/* Phone */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Phone</label>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Phone Number
+            </label>
+
             <input
+              type="text"
               name="number"
+              value={formData.number}
               onChange={handleChange}
-              placeholder="Phone Number"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="Enter phone number"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           {/* Company */}
-          <div className="col-span-2">
-            <label className="text-sm text-gray-600">Company</label>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Company Name
+            </label>
+
             <input
+              type="text"
               name="company"
+              value={formData.company}
               onChange={handleChange}
-              placeholder="Company name"
-              className="w-full border rounded-md p-2 mt-1 focus:ring-2 focus:ring-blue-500 outline-none"
+              placeholder="Enter company name"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* Password */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Password
+            </label>
+
+            <input
+              type="password"
+              name="password"
+              value={formData.password}
+              onChange={handleChange}
+              placeholder="Enter password"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* Confirm Password */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Confirm Password
+            </label>
+
+            <input
+              type="password"
+              name="confirmPassword"
+              value={formData.confirmPassword}
+              onChange={handleChange}
+              placeholder="Confirm password"
+              className="w-full border border-gray-300 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           {/* Button */}
-          <div className="col-span-2">
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md mt-2 transition">
-              Create Account
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-semibold transition duration-300"
+          >
+            Create Account
+          </button>
 
-          {/* Login link */}
-          <p className="col-span-2 text-center text-sm text-gray-600">
+          {/* Login */}
+          <p className="text-center text-sm text-gray-600">
             Already have an account?{" "}
-            <Link to="/login" className="text-blue-600 hover:underline">
+            <Link
+              to="/login"
+              className="text-blue-600 hover:underline font-medium"
+            >
               Login
             </Link>
           </p>

@@ -1,7 +1,7 @@
 import React from "react";
 import JobCard from "../common/JobCard";
 
-const JobListingPage = ({ jobs, showAction }) => {
+const JobListingPage = ({ jobs, showAction, onDelete }) => {
   if (!jobs) {
     return <p className="text-center mt-5">Loading...</p>;
   }
@@ -23,7 +23,7 @@ const JobListingPage = ({ jobs, showAction }) => {
       >
         {jobs.map((job) => (
           <div key={job.id} className="w-full">
-            <JobCard job={job} showAction={showAction} />
+            <JobCard job={job} showAction={showAction} onDelete={onDelete} />
           </div>
         ))}
       </div>

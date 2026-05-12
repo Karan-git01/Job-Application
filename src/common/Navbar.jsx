@@ -37,7 +37,7 @@ const Navbar = () => {
           {/* 🔗 Nav Links (NOW visible on mobile too) */}
           <div className='flex items-center gap-4 sm:gap-6'>
             <Link 
-              to="/jobs" 
+              to="/company/dashboard" 
               className='text-gray-600 hover:text-blue-600 font-medium text-sm sm:text-base transition'
             >
               Find Jobs
