@@ -254,7 +254,7 @@
     {
       "id": "1",
       "name": "TechCorp Solutions",
-      "logo": "https://via.placeholder.com/150/3B82F6/FFFFFF?text=TC",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "Leading technology company specializing in web and mobile application development.",
       "size": "200-500",
       "industry": "Technology",
@@ -263,7 +263,7 @@
     {
       "id": "2",
       "name": "StartupHub",
-      "logo": "https://via.placeholder.com/150/10B981/FFFFFF?text=SH",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "Fast-growing startup incubator helping innovative ideas come to life.",
       "size": "50-100",
       "industry": "Technology",
@@ -272,7 +272,7 @@
     {
       "id": "3",
       "name": "DesignWorks",
-      "logo": "https://via.placeholder.com/150/F59E0B/FFFFFF?text=DW",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "Creative agency specializing in digital product design and branding.",
       "size": "30-50",
       "industry": "Design",
@@ -281,7 +281,7 @@
     {
       "id": "4",
       "name": "CloudTech",
-      "logo": "https://via.placeholder.com/150/8B5CF6/FFFFFF?text=CT",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "Cloud infrastructure and DevOps solutions provider.",
       "size": "100-200",
       "industry": "Technology",
@@ -290,7 +290,7 @@
     {
       "id": "5",
       "name": "MarketPro",
-      "logo": "https://via.placeholder.com/150/EF4444/FFFFFF?text=MP",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "Digital marketing agency helping brands grow their online presence.",
       "size": "50-100",
       "industry": "Marketing",
@@ -299,7 +299,7 @@
     {
       "id": "6",
       "name": "DataVision",
-      "logo": "https://via.placeholder.com/150/06B6D4/FFFFFF?text=DV",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
       "description": "AI and machine learning solutions provider.",
       "size": "150-300",
       "industry": "Technology",
@@ -346,6 +346,42 @@
       "company": "DesignWorks",
       "appliedDate": "2026-04-27T13:28:10.217Z",
       "status": "pending"
+    },
+    {
+      "jobId": "1",
+      "title": "Senior React Developer",
+      "salaryMin": 1500000,
+      "salaryMax": 2500000,
+      "userId": "Usv-gat8pYM",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-12T08:18:16.626Z",
+      "status": "pending",
+      "id": "gfqp6O6KczM"
+    },
+    {
+      "jobId": "4",
+      "title": "DevOps Engineer",
+      "salaryMin": 1800000,
+      "salaryMax": 2800000,
+      "userId": "Usv-gat8pYM",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-12T08:18:49.874Z",
+      "status": "pending",
+      "id": "zYv40SWYCx8"
+    },
+    {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "Usv-gat8pYM",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-12T08:33:58.770Z",
+      "status": "pending",
+      "id": "6FqFlEgioog"
     }
   ],
   "categories": [

@@ -8,6 +8,7 @@ import PostJobPage from "./pages/PostJobPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import Layout from "./common/Layout";
 import HomePage from "./pages/HomePage";
+import JobListingPage from "./pages/JobListingPage";
 
 function App() {
   return (
@@ -16,18 +17,12 @@ function App() {
       <Route path="/signup" element={<SignupPage />} />
 
       <Route path="/" element={<Layout />}>
-        {/* ✅ Default page */}
-        <Route index element={<HomePage />} />
-
-        {/* ✅ Use HomePage (NOT JobListingPage) */}
-        <Route path="home" element={<HomePage />} />
-        <Route path="jobs" element={<HomePage />} />
-
-        <Route path="job/:id" element={<JobDetailPage />} />
-        <Route path="company/dashboard" element={<CompanyDashboard />} />
-        <Route path="applications" element={<ApplicationPage />} />
-        <Route path="company/post-job" element={<PostJobPage />} />
-
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/jobs" element={<JobListingPage />} />
+        <Route path="/job/:id" element={<JobDetailPage />} />
+        <Route path="/company/dashboard" element={<CompanyDashboard />} />
+        <Route path="/applications" element={<ApplicationPage />} />
+        <Route path="/company/post-job" element={<PostJobPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
