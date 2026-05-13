@@ -308,6 +308,30 @@
   ],
   "applications": [
     {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "type": "Full-time",
+      "location": "Mumbai, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "AWS",
+        "Docker"
+      ],
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "OwKgvL_BLEI",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-13T09:04:56.822Z",
+      "status": "pending",
+      "id": "QLWv_rZph3Y"
+    },
+    {
       "jobId": "1",
       "title": "Senior React Developer",
       "company": "TechCorp Solutions",
@@ -328,9 +352,57 @@
       "userId": "Usv-gat8pYM",
       "name": "Karan Chowdhury",
       "email": "karanchowdhury62@gmail.com",
-      "appliedDate": "2026-05-12T09:55:00.936Z",
+      "appliedDate": "2026-05-13T09:08:57.684Z",
       "status": "pending",
-      "id": "yzI7x7K_JME"
+      "id": "_LLH4aU4iWw"
+    },
+    {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "type": "Full-time",
+      "location": "Mumbai, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "AWS",
+        "Docker"
+      ],
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "OwKgvL_BLEI",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-13T09:09:21.764Z",
+      "status": "pending",
+      "id": "ufRKbx_5sOM"
+    },
+    {
+      "jobId": "3",
+      "title": "UI/UX Designer",
+      "company": "DesignWorks",
+      "type": "Full-time",
+      "location": "Pune, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ],
+      "salaryMin": 800000,
+      "salaryMax": 1400000,
+      "userId": "OwKgvL_BLEI",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-13T09:09:26.097Z",
+      "status": "pending",
+      "id": "33TSAGFX7fM"
     }
   ],
   "categories": [

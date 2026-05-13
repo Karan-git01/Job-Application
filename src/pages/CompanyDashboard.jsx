@@ -7,17 +7,21 @@ const API_URL = "http://localhost:3000/applications";
 const CompanyDashboard = () => {
   const [jobs, setJobs] = useState([]);
 
+  const user = JSON.parse(localStorage.getItem("user"));
+
   const fetchData = async () => {
     try {
       const res = await fetch(API_URL);
       const data = await res.json();
 
-      setJobs(data);
+      const filteredData = data?.filter((job)=> job?.userId === user?.id);
+
+      setJobs(filteredData);
     } catch (err) {
       console.log(err);
     }
   };
-
+  
   const onDelete = async (id) => {
     try {
       const res = await fetch(`${API_URL}/${id}`, {
