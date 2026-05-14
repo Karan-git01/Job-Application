@@ -248,6 +248,34 @@
       "companySize": "150-300",
       "postedDate": "2026-04-23T10:45:00Z",
       "status": "active"
+    },
+    {
+      "title": "a",
+      "company": "MarketPro",
+      "companyId": "5",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
+      "location": "a",
+      "type": "aa",
+      "workMode": "aaaa",
+      "experience": "aa",
+      "salaryMin": 1,
+      "salaryMax": 2,
+      "category": "a",
+      "description": "a",
+      "requirements": [
+        "a"
+      ],
+      "responsibilities": [
+        "a"
+      ],
+      "skills": [
+        "a"
+      ],
+      "companyDescription": "Digital marketing agency helping brands grow their online presence.",
+      "companySize": "50-100",
+      "postedDate": "2026-05-14T12:03:38.505Z",
+      "status": "active",
+      "id": "aMuWZWZEpbE"
     }
   ],
   "companies": [
@@ -304,6 +332,15 @@
       "size": "150-300",
       "industry": "Technology",
       "website": "https://datavision.example.com"
+    },
+    {
+      "name": "q",
+      "description": "q",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
+      "size": "1",
+      "industry": "q",
+      "website": "http://localhost:5173/admin",
+      "id": "hB7-HnBZWWY"
     }
   ],
   "applications": [
@@ -444,6 +481,13 @@
     }
   ],
   "users": [
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "id": "bvgGeFeD0YE"
+    },
     {
       "id": "1",
       "name": "John Doe",

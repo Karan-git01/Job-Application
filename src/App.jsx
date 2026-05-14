@@ -9,6 +9,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Layout from "./common/Layout";
 import HomePage from "./pages/HomePage";
 import JobListingPage from "./pages/JobListingPage";
+import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/jobs" element={<JobListingPage />} />
         <Route path="/job/:id" element={<JobDetailPage />} />
         <Route path="/company/dashboard" element={<CompanyDashboard />} />
+        <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/applications" element={<ApplicationPage />} />
         <Route path="/company/post-job" element={<PostJobPage />} />
         <Route path="*" element={<NotFoundPage />} />
