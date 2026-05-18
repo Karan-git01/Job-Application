@@ -1,7 +1,11 @@
 import React from "react";
 import JobCard from "../common/JobCard";
+import AdminJobCard from "./AdminJobCard";
 
 const JobListingPage = ({ jobs, showAction, onDelete }) => {
+  const user = JSON.parse(localStorage.getItem("user"));
+  const isAdmin = user?.role === "admin";
+
   if (!jobs) {
     return <p className="text-center mt-5">Loading...</p>;
   }
@@ -23,7 +27,18 @@ const JobListingPage = ({ jobs, showAction, onDelete }) => {
       >
         {jobs.map((job) => (
           <div key={job.id} className="w-full">
-            <JobCard job={job} showAction={showAction} onDelete={onDelete} />
+            {isAdmin ? (
+              <AdminJobCard
+                job={job}
+                onDelete={onDelete}
+              />
+            ) : (
+              <JobCard
+                job={job}
+                showAction={showAction}
+                onDelete={onDelete}
+              />
+            )}
           </div>
         ))}
       </div>

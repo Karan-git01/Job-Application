@@ -248,34 +248,6 @@
       "companySize": "150-300",
       "postedDate": "2026-04-23T10:45:00Z",
       "status": "active"
-    },
-    {
-      "title": "a",
-      "company": "MarketPro",
-      "companyId": "5",
-      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
-      "location": "a",
-      "type": "aa",
-      "workMode": "aaaa",
-      "experience": "aa",
-      "salaryMin": 1,
-      "salaryMax": 2,
-      "category": "a",
-      "description": "a",
-      "requirements": [
-        "a"
-      ],
-      "responsibilities": [
-        "a"
-      ],
-      "skills": [
-        "a"
-      ],
-      "companyDescription": "Digital marketing agency helping brands grow their online presence.",
-      "companySize": "50-100",
-      "postedDate": "2026-05-14T12:03:38.505Z",
-      "status": "active",
-      "id": "aMuWZWZEpbE"
     }
   ],
   "companies": [
@@ -334,13 +306,13 @@
       "website": "https://datavision.example.com"
     },
     {
-      "name": "q",
-      "description": "q",
+      "name": "TCS",
+      "description": "TCS, a global leader in IT services, consulting, and business solution",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
-      "size": "1",
-      "industry": "q",
-      "website": "http://localhost:5173/admin",
-      "id": "hB7-HnBZWWY"
+      "size": "100000",
+      "industry": "Technology",
+      "website": "https://www.tcs.com/",
+      "id": "d_zRgCRia7k"
     }
   ],
   "applications": [
@@ -440,6 +412,55 @@
       "appliedDate": "2026-05-13T09:09:26.097Z",
       "status": "pending",
       "id": "33TSAGFX7fM"
+    },
+    {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "type": "Full-time",
+      "location": "Mumbai, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "AWS",
+        "Docker"
+      ],
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "Usv-gat8pYM",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-18T11:45:14.366Z",
+      "status": "pending",
+      "id": "ewxPxm72JmA"
+    },
+    {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "type": "Full-time",
+      "location": "Mumbai, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "AWS",
+        "Docker"
+      ],
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "1",
+      "name": "John Doe",
+      "email": "user@example.com",
+      "phone": "+91 98765 43210",
+      "appliedDate": "2026-05-18T11:54:38.840Z",
+      "status": "pending",
+      "id": "Rp4tJSu0yBc"
     }
   ],
   "categories": [
