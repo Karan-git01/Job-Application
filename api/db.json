@@ -248,6 +248,46 @@
       "companySize": "150-300",
       "postedDate": "2026-04-23T10:45:00Z",
       "status": "active"
+    },
+    {
+      "title": "Full Stack Engineer",
+      "company": "DesignWorks",
+      "companyId": "3",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwOIUSceZhRo-Y1RBaOc9lDksAvPGSHe4EYw&s",
+      "location": "Mumbai",
+      "type": "Full-Time",
+      "workMode": "On-site",
+      "experience": "Junior",
+      "salaryMin": 30000,
+      "salaryMax": 40000,
+      "category": "Technology",
+      "description": "As an IT specialist, you will manage system upgrades, resolve user queries, and optimise our technology infrastructure to align with business goals. The ideal candidate will oversee the organisation’s IT infrastructure, troubleshoot issues, and provide technical expertise to ensure all operations run smoothly. As an integral part of our team, you will drive efficiency and innovation while safeguarding our digital assets.",
+      "requirements": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "responsibilities": [
+        "System monitoring",
+        "server uptime tracking",
+        "technical troubleshooting",
+        "hardware configuration",
+        "router setup"
+      ],
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "companyDescription": "Creative agency specializing in digital product design and branding.",
+      "companySize": "30-50",
+      "postedDate": "2026-05-21T09:35:06.653Z",
+      "status": "active",
+      "id": "Z1RSUsQz844"
     }
   ],
   "companies": [
