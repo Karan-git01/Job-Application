@@ -34,7 +34,7 @@ const JobListingPage = ({ jobs, showAction, onDelete }) => {
     <div className="max-w-7xl mx-auto px-6 py-8">
 
       {/* Filters */}
-      <div className="flex justify-end gap-4 mb-8">
+      <div className="flex flex-wrap justify-end gap-4 mb-8">
 
         {/* Location Filter */}
         <select

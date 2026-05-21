@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import JobListingPage from "./JobListingPage";
 import CompanyList from "../../components/CompanyList";
 
+
 const API_URL = "http://localhost:3000/jobs";
 const COMPANY_API = "http://localhost:3000/companies";
 
@@ -37,10 +38,12 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
+
       {/* Tabs */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6">
         <div className="flex justify-center sm:justify-start">
           <div className="bg-white border border-gray-200 shadow-sm rounded-2xl p-1 flex w-full sm:w-fit">
+            
             <button
               onClick={() => setActiveTab("companies")}
               className={`flex-1 sm:flex-none px-6 py-3 rounded-xl text-sm sm:text-base font-semibold transition-all duration-300 ${
@@ -62,6 +65,7 @@ const HomePage = () => {
             >
               All Jobs
             </button>
+
           </div>
         </div>
       </div>
