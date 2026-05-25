@@ -501,6 +501,30 @@
       "appliedDate": "2026-05-18T11:54:38.840Z",
       "status": "pending",
       "id": "Rp4tJSu0yBc"
+    },
+    {
+      "jobId": "2",
+      "title": "Full Stack Developer",
+      "company": "StartupHub",
+      "type": "Full-time",
+      "location": "Mumbai, India",
+      "experience": "Mid Level",
+      "skills": [
+        "Node.js",
+        "React",
+        "MongoDB",
+        "Express",
+        "AWS",
+        "Docker"
+      ],
+      "salaryMin": 1000000,
+      "salaryMax": 1800000,
+      "userId": "Usv-gat8pYM",
+      "name": "Karan Chowdhury",
+      "email": "karanchowdhury62@gmail.com",
+      "appliedDate": "2026-05-25T11:17:33.024Z",
+      "status": "pending",
+      "id": "2cYE7w1zYqU"
     }
   ],
   "categories": [

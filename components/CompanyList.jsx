@@ -1,5 +1,6 @@
 import React from "react";
 import CompanyCard from "../src/common/CompanyCard";
+import TestimonialSection from "./TestimonialSection";
 
 const CompanyList = ({ companies }) => {
   return (

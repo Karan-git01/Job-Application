@@ -16,7 +16,6 @@ const AdminDashboard = () => {
         const res = await fetch(API_URL);
         const data = await res.json();
         setJobs(data);
-        console.log("Jobs:", data);
       } catch (err) {
         console.log(err);
       }
@@ -27,7 +26,6 @@ const AdminDashboard = () => {
         const res = await fetch(COMPANY_API);
         const data = await res.json();
         setCompanies(data);
-        console.log("Companies:", data);
       } catch (err) {
         console.log(err);
       }
